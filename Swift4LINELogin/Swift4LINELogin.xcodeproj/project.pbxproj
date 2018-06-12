@@ -16,6 +16,8 @@
 		8214B6DD20CE96BB004F063A /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8214B6DC20CE96BB004F063A /* SDWebImage.framework */; };
 		8214B6DF20CE96D0004F063A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8214B6DE20CE96D0004F063A /* CoreTelephony.framework */; };
 		8214B6E120CE96DD004F063A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8214B6E020CE96DD004F063A /* Security.framework */; };
+		8214B6E420D00ABB004F063A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214B6E320D00ABB004F063A /* ProfileViewController.swift */; };
+		8214B6E620D00AF1004F063A /* lineIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8214B6E520D00AF1004F063A /* lineIcon.png */; };
 		8B7B78E29047936E3A8582E2 /* Pods_Swift4LINELogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B372509A36BF8E4AE262219F /* Pods_Swift4LINELogin.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +36,8 @@
 		8214B6DE20CE96D0004F063A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		8214B6E020CE96DD004F063A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		8214B6E220CE96F6004F063A /* Swift4LINELogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swift4LINELogin.entitlements; sourceTree = "<group>"; };
+		8214B6E320D00ABB004F063A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8214B6E520D00AF1004F063A /* lineIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lineIcon.png; sourceTree = "<group>"; };
 		B372509A36BF8E4AE262219F /* Pods_Swift4LINELogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift4LINELogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -83,10 +87,12 @@
 		8214B6C720CE9086004F063A /* Swift4LINELogin */ = {
 			isa = PBXGroup;
 			children = (
+				8214B6E520D00AF1004F063A /* lineIcon.png */,
 				8214B6E220CE96F6004F063A /* Swift4LINELogin.entitlements */,
 				8214B6DA20CE9679004F063A /* LineSDK.framework */,
 				8214B6C820CE9086004F063A /* AppDelegate.swift */,
 				8214B6CA20CE9086004F063A /* ViewController.swift */,
+				8214B6E320D00ABB004F063A /* ProfileViewController.swift */,
 				8214B6CC20CE9086004F063A /* Main.storyboard */,
 				8214B6CF20CE9089004F063A /* Assets.xcassets */,
 				8214B6D120CE9089004F063A /* LaunchScreen.storyboard */,
@@ -171,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8214B6E620D00AF1004F063A /* lineIcon.png in Resources */,
 				8214B6D320CE9089004F063A /* LaunchScreen.storyboard in Resources */,
 				8214B6D020CE9089004F063A /* Assets.xcassets in Resources */,
 				8214B6CE20CE9086004F063A /* Main.storyboard in Resources */,
@@ -225,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8214B6E420D00ABB004F063A /* ProfileViewController.swift in Sources */,
 				8214B6CB20CE9086004F063A /* ViewController.swift in Sources */,
 				8214B6C920CE9086004F063A /* AppDelegate.swift in Sources */,
 			);
