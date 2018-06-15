@@ -8,28 +8,54 @@
 
 import UIKit
 
-class NextViewController: UIViewController {
+class NextViewController: UIViewController, UITextViewDelegate {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    var selectedNumber = 0
+  
+  @IBOutlet var textView: UITextView!
+  
+  var screenShotImage: UIImage = UIImage()
 
-        // Do any additional setup after loading the view.
+  var titleArray: Array = [String]()
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    textView.delegate = self
+  }
+  
+  override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+    
+    // get the title array from the app
+    if UserDefaults.standard.object(forKey: "array") != nil {
+      
+      titleArray = UserDefaults.standard.object(forKey: "array") as! [String]
+      
+      textView.text = titleArray[selectedNumber]
     }
-
+    
+  }
+  
+  // take screenshot
+  func takeScreenShot() {
+    
+  }
+  
+  // close the keyboard with in touch
+  override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    if textView.isFirstResponder {
+      
+      textView.resignFirstResponder()
+    }
+  }
+  
+  @IBAction func shareLINE(_ sender: Any) {
+    
+  }
+  
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
