@@ -25,6 +25,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     tableView.delegate = self
     tableView.dataSource = self
+    textField.delegate = self
     
     backView.layer.cornerRadius = 2.0
     
@@ -78,6 +79,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     return true
     
+  }
+  
+  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    
+    return 107
   }
   
   func numberOfSections(in tableView: UITableView) -> Int {

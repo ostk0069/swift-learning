@@ -8,7 +8,9 @@
 
 import UIKit
 
-class NextViewController: UIViewController, UITextViewDelegate {
+class NextViewController: UIViewController, UITextViewDelegate, UIDocumentInteractionControllerDelegate {
+  
+    lazy private var documentInteractionController = UIDocumentInteractionController()
 
     var selectedNumber = 0
   
@@ -37,11 +39,6 @@ class NextViewController: UIViewController, UITextViewDelegate {
     
   }
   
-  // take screenshot
-  func takeScreenShot() {
-    
-  }
-  
   // close the keyboard with in touch
   override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
     if textView.isFirstResponder {
@@ -50,8 +47,33 @@ class NextViewController: UIViewController, UITextViewDelegate {
     }
   }
   
+  // take screenshot
+  func takeScreenShot() {
+    
+    // キャプチャしたい枠を決める
+    let rect = CGRect(x: textView.frame.origin.x, y: textView.frame.origin.y, width: textView.frame.width, height: textView.frame.height)
+    
+    UIGraphicsBeginImageContextWithOptions(rect.size, false, 0.0)
+    textView.drawHierarchy(in: rect, afterScreenUpdates: true)
+    screenShotImage = UIGraphicsGetImageFromCurrentImageContext()!
+    UIGraphicsEndImageContext()
+  }
+
   @IBAction func shareLINE(_ sender: Any) {
     
+    takeScreenShot()
+    
+    DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+      
+      let pastBoard: UIPasteboard = UIPasteboard.general
+      
+      pastBoard.setData(UIImageJPEGRepresentation(self.screenShotImage, 0.75)!, forPasteboardType: "public.png")
+      
+      let lineUrlString: String = String(format: "line://msg/image/%@", pastBoard.name as CVarArg)
+      
+      UIApplication.shared.open(NSURL(string: lineUrlString)! as URL)
+      
+    }
   }
   
     override func didReceiveMemoryWarning() {
