@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35CA2A8BA5649841F7894321 /* Pods_HappyStagram1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FA8A524EBF94C44AB37E6A /* Pods_HappyStagram1.framework */; };
+		828BD2FA20E8FE7000D5915F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828BD2F920E8FE7000D5915F /* AppDelegate.swift */; };
+		828BD2FC20E8FE7000D5915F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828BD2FB20E8FE7000D5915F /* ViewController.swift */; };
+		828BD2FF20E8FE7000D5915F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828BD2FD20E8FE7000D5915F /* Main.storyboard */; };
+		828BD30120E8FE7200D5915F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828BD30020E8FE7200D5915F /* Assets.xcassets */; };
+		828BD30420E8FE7200D5915F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828BD30220E8FE7200D5915F /* LaunchScreen.storyboard */; };
+		828BD30C20E9038300D5915F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 828BD30B20E9038300D5915F /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66FA8A524EBF94C44AB37E6A /* Pods_HappyStagram1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyStagram1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		828BD2F620E8FE7000D5915F /* HappyStagram1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyStagram1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		828BD2F920E8FE7000D5915F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		828BD2FB20E8FE7000D5915F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		828BD2FE20E8FE7000D5915F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		828BD30020E8FE7200D5915F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		828BD30320E8FE7200D5915F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		828BD30520E8FE7200D5915F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		828BD30B20E9038300D5915F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BF42F75A7CB71B4C98880759 /* Pods-HappyStagram1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyStagram1.release.xcconfig"; path = "Pods/Target Support Files/Pods-HappyStagram1/Pods-HappyStagram1.release.xcconfig"; sourceTree = "<group>"; };
+		CD94E07410365C3E0B691794 /* Pods-HappyStagram1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyStagram1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HappyStagram1/Pods-HappyStagram1.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		828BD2F320E8FE6F00D5915F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CA2A8BA5649841F7894321 /* Pods_HappyStagram1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23531A02BF62599F9DA663E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD94E07410365C3E0B691794 /* Pods-HappyStagram1.debug.xcconfig */,
+				BF42F75A7CB71B4C98880759 /* Pods-HappyStagram1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		828BD2ED20E8FE6F00D5915F = {
+			isa = PBXGroup;
+			children = (
+				828BD2F820E8FE7000D5915F /* HappyStagram1 */,
+				828BD2F720E8FE7000D5915F /* Products */,
+				23531A02BF62599F9DA663E1 /* Pods */,
+				A93B39CF4EB48B58E868B310 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		828BD2F720E8FE7000D5915F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				828BD2F620E8FE7000D5915F /* HappyStagram1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		828BD2F820E8FE7000D5915F /* HappyStagram1 */ = {
+			isa = PBXGroup;
+			children = (
+				828BD2F920E8FE7000D5915F /* AppDelegate.swift */,
+				828BD2FB20E8FE7000D5915F /* ViewController.swift */,
+				828BD2FD20E8FE7000D5915F /* Main.storyboard */,
+				828BD30020E8FE7200D5915F /* Assets.xcassets */,
+				828BD30220E8FE7200D5915F /* LaunchScreen.storyboard */,
+				828BD30520E8FE7200D5915F /* Info.plist */,
+				828BD30B20E9038300D5915F /* GoogleService-Info.plist */,
+			);
+			path = HappyStagram1;
+			sourceTree = "<group>";
+		};
+		A93B39CF4EB48B58E868B310 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66FA8A524EBF94C44AB37E6A /* Pods_HappyStagram1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		828BD2F520E8FE6F00D5915F /* HappyStagram1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828BD30820E8FE7200D5915F /* Build configuration list for PBXNativeTarget "HappyStagram1" */;
+			buildPhases = (
+				00C35BFC977B4CFAF0FC381F /* [CP] Check Pods Manifest.lock */,
+				828BD2F220E8FE6F00D5915F /* Sources */,
+				828BD2F320E8FE6F00D5915F /* Frameworks */,
+				828BD2F420E8FE6F00D5915F /* Resources */,
+				9614EA6668085F4760E7494F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyStagram1;
+			productName = HappyStagram1;
+			productReference = 828BD2F620E8FE7000D5915F /* HappyStagram1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		828BD2EE20E8FE6F00D5915F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Takuma Osada";
+				TargetAttributes = {
+					828BD2F520E8FE6F00D5915F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 828BD2F120E8FE6F00D5915F /* Build configuration list for PBXProject "HappyStagram1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 828BD2ED20E8FE6F00D5915F;
+			productRefGroup = 828BD2F720E8FE7000D5915F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				828BD2F520E8FE6F00D5915F /* HappyStagram1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		828BD2F420E8FE6F00D5915F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828BD30420E8FE7200D5915F /* LaunchScreen.storyboard in Resources */,
+				828BD30C20E9038300D5915F /* GoogleService-Info.plist in Resources */,
+				828BD30120E8FE7200D5915F /* Assets.xcassets in Resources */,
+				828BD2FF20E8FE7000D5915F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00C35BFC977B4CFAF0FC381F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyStagram1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9614EA6668085F4760E7494F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HappyStagram1/Pods-HappyStagram1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HappyStagram1/Pods-HappyStagram1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		828BD2F220E8FE6F00D5915F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828BD2FC20E8FE7000D5915F /* ViewController.swift in Sources */,
+				828BD2FA20E8FE7000D5915F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		828BD2FD20E8FE7000D5915F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				828BD2FE20E8FE7000D5915F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		828BD30220E8FE7200D5915F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				828BD30320E8FE7200D5915F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		828BD30620E8FE7200D5915F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		828BD30720E8FE7200D5915F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		828BD30920E8FE7200D5915F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD94E07410365C3E0B691794 /* Pods-HappyStagram1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P46632C32H;
+				INFOPLIST_FILE = HappyStagram1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.0sataku.HappyStagram1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		828BD30A20E8FE7200D5915F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF42F75A7CB71B4C98880759 /* Pods-HappyStagram1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P46632C32H;
+				INFOPLIST_FILE = HappyStagram1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.0sataku.HappyStagram1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		828BD2F120E8FE6F00D5915F /* Build configuration list for PBXProject "HappyStagram1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828BD30620E8FE7200D5915F /* Debug */,
+				828BD30720E8FE7200D5915F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828BD30820E8FE7200D5915F /* Build configuration list for PBXNativeTarget "HappyStagram1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828BD30920E8FE7200D5915F /* Debug */,
+				828BD30A20E8FE7200D5915F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 828BD2EE20E8FE6F00D5915F /* Project object */;
+}
