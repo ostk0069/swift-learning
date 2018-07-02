@@ -14,6 +14,19 @@
 		828BD30120E8FE7200D5915F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828BD30020E8FE7200D5915F /* Assets.xcassets */; };
 		828BD30420E8FE7200D5915F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828BD30220E8FE7200D5915F /* LaunchScreen.storyboard */; };
 		828BD30C20E9038300D5915F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 828BD30B20E9038300D5915F /* GoogleService-Info.plist */; };
+		828BD31920EA01BE00D5915F /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 828BD30D20EA01BC00D5915F /* logout.png */; };
+		828BD31A20EA01BE00D5915F /* blurback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 828BD30E20EA01BC00D5915F /* blurback.jpg */; };
+		828BD31B20EA01BE00D5915F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 828BD30F20EA01BC00D5915F /* logo.png */; };
+		828BD31C20EA01BE00D5915F /* picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 828BD31020EA01BC00D5915F /* picture.png */; };
+		828BD31D20EA01BE00D5915F /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 828BD31120EA01BC00D5915F /* setting.png */; };
+		828BD31E20EA01BE00D5915F /* username.png in Resources */ = {isa = PBXBuildFile; fileRef = 828BD31220EA01BC00D5915F /* username.png */; };
+		828BD31F20EA01BE00D5915F /* settingtab.png in Resources */ = {isa = PBXBuildFile; fileRef = 828BD31320EA01BD00D5915F /* settingtab.png */; };
+		828BD32020EA01BE00D5915F /* change.png in Resources */ = {isa = PBXBuildFile; fileRef = 828BD31420EA01BD00D5915F /* change.png */; };
+		828BD32120EA01BE00D5915F /* fotter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 828BD31520EA01BD00D5915F /* fotter.jpg */; };
+		828BD32220EA01BE00D5915F /* setProfile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 828BD31620EA01BD00D5915F /* setProfile.jpg */; };
+		828BD32320EA01BE00D5915F /* camerabutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 828BD31720EA01BD00D5915F /* camerabutton.png */; };
+		828BD32420EA01BE00D5915F /* shareTwitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 828BD31820EA01BD00D5915F /* shareTwitter.png */; };
+		828BD32620EA04D000D5915F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828BD32520EA04D000D5915F /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,19 @@
 		828BD30320E8FE7200D5915F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		828BD30520E8FE7200D5915F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		828BD30B20E9038300D5915F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		828BD30D20EA01BC00D5915F /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		828BD30E20EA01BC00D5915F /* blurback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blurback.jpg; sourceTree = "<group>"; };
+		828BD30F20EA01BC00D5915F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		828BD31020EA01BC00D5915F /* picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture.png; sourceTree = "<group>"; };
+		828BD31120EA01BC00D5915F /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		828BD31220EA01BC00D5915F /* username.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = username.png; sourceTree = "<group>"; };
+		828BD31320EA01BD00D5915F /* settingtab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingtab.png; sourceTree = "<group>"; };
+		828BD31420EA01BD00D5915F /* change.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = change.png; sourceTree = "<group>"; };
+		828BD31520EA01BD00D5915F /* fotter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fotter.jpg; sourceTree = "<group>"; };
+		828BD31620EA01BD00D5915F /* setProfile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = setProfile.jpg; sourceTree = "<group>"; };
+		828BD31720EA01BD00D5915F /* camerabutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camerabutton.png; sourceTree = "<group>"; };
+		828BD31820EA01BD00D5915F /* shareTwitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareTwitter.png; sourceTree = "<group>"; };
+		828BD32520EA04D000D5915F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BF42F75A7CB71B4C98880759 /* Pods-HappyStagram1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyStagram1.release.xcconfig"; path = "Pods/Target Support Files/Pods-HappyStagram1/Pods-HappyStagram1.release.xcconfig"; sourceTree = "<group>"; };
 		CD94E07410365C3E0B691794 /* Pods-HappyStagram1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyStagram1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HappyStagram1/Pods-HappyStagram1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +98,18 @@
 		828BD2F820E8FE7000D5915F /* HappyStagram1 */ = {
 			isa = PBXGroup;
 			children = (
+				828BD30E20EA01BC00D5915F /* blurback.jpg */,
+				828BD31720EA01BD00D5915F /* camerabutton.png */,
+				828BD31420EA01BD00D5915F /* change.png */,
+				828BD31520EA01BD00D5915F /* fotter.jpg */,
+				828BD30F20EA01BC00D5915F /* logo.png */,
+				828BD30D20EA01BC00D5915F /* logout.png */,
+				828BD31020EA01BC00D5915F /* picture.png */,
+				828BD31620EA01BD00D5915F /* setProfile.jpg */,
+				828BD31120EA01BC00D5915F /* setting.png */,
+				828BD31320EA01BD00D5915F /* settingtab.png */,
+				828BD31820EA01BD00D5915F /* shareTwitter.png */,
+				828BD31220EA01BC00D5915F /* username.png */,
 				828BD2F920E8FE7000D5915F /* AppDelegate.swift */,
 				828BD2FB20E8FE7000D5915F /* ViewController.swift */,
 				828BD2FD20E8FE7000D5915F /* Main.storyboard */,
@@ -79,6 +117,7 @@
 				828BD30220E8FE7200D5915F /* LaunchScreen.storyboard */,
 				828BD30520E8FE7200D5915F /* Info.plist */,
 				828BD30B20E9038300D5915F /* GoogleService-Info.plist */,
+				828BD32520EA04D000D5915F /* LoginViewController.swift */,
 			);
 			path = HappyStagram1;
 			sourceTree = "<group>";
@@ -151,10 +190,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				828BD32220EA01BE00D5915F /* setProfile.jpg in Resources */,
 				828BD30420E8FE7200D5915F /* LaunchScreen.storyboard in Resources */,
 				828BD30C20E9038300D5915F /* GoogleService-Info.plist in Resources */,
+				828BD31C20EA01BE00D5915F /* picture.png in Resources */,
+				828BD31920EA01BE00D5915F /* logout.png in Resources */,
+				828BD31F20EA01BE00D5915F /* settingtab.png in Resources */,
+				828BD32120EA01BE00D5915F /* fotter.jpg in Resources */,
 				828BD30120E8FE7200D5915F /* Assets.xcassets in Resources */,
+				828BD31E20EA01BE00D5915F /* username.png in Resources */,
+				828BD32420EA01BE00D5915F /* shareTwitter.png in Resources */,
+				828BD32020EA01BE00D5915F /* change.png in Resources */,
+				828BD31D20EA01BE00D5915F /* setting.png in Resources */,
+				828BD32320EA01BE00D5915F /* camerabutton.png in Resources */,
+				828BD31B20EA01BE00D5915F /* logo.png in Resources */,
 				828BD2FF20E8FE7000D5915F /* Main.storyboard in Resources */,
+				828BD31A20EA01BE00D5915F /* blurback.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				828BD32620EA04D000D5915F /* LoginViewController.swift in Sources */,
 				828BD2FC20E8FE7000D5915F /* ViewController.swift in Sources */,
 				828BD2FA20E8FE7000D5915F /* AppDelegate.swift in Sources */,
 			);
